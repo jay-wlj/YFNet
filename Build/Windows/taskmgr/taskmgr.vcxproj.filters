@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="../../../Src/taskmgr/DownLoadTask.cpp" />
+    <ClCompile Include="../../../Src/taskmgr/M3u8.cpp" />
+    <ClCompile Include="../../../Src/taskmgr/Mem.cpp" />
+    <ClCompile Include="../../../Src/taskmgr/Peer.cpp" />
+    <ClCompile Include="../../../Src/taskmgr/PeerGroup.cpp" />
+    <ClCompile Include="../../../Src/taskmgr/QvodFile.cpp" />
+    <ClCompile Include="../../../Src/taskmgr/Seed.cpp" />
+    <ClCompile Include="../../../Src/taskmgr/ServerProduct.cpp" />
+    <ClCompile Include="../../../Src/taskmgr/Task.cpp" />
+    <ClCompile Include="../../../Src/taskmgr/TaskMgr.cpp" />
+    <ClCompile Include="../../../Src/taskmgr/TaskMgrInterface.cpp" />
+    <ClCompile Include="..\..\..\Src\taskmgr\CacheDataInMem.cpp" />
+    <ClCompile Include="..\..\..\Src\taskmgr\CopyTaskFile.cpp" />
+    <ClCompile Include="..\..\..\Src\taskmgr\M3u8Task.cpp" />
+    <ClCompile Include="..\..\..\Src\taskmgr\NetSign.cpp" />
+    <ClCompile Include="..\..\..\Src\taskmgr\NFUploadTask.cpp" />
+    <ClCompile Include="..\..\..\Src\taskmgr\UpLoadTask.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../../../Src/taskmgr/DownLoadTask.h" />
+    <ClInclude Include="../../../Src/taskmgr/M3u8.h" />
+    <ClInclude Include="../../../Src/taskmgr/Mem.h" />
+    <ClInclude Include="../../../Src/taskmgr/Peer.h" />
+    <ClInclude Include="../../../Src/taskmgr/PeerGroup.h" />
+    <ClInclude Include="../../../Src/taskmgr/QvodFile.h" />
+    <ClInclude Include="../../../Src/taskmgr/Seed.h" />
+    <ClInclude Include="../../../Src/taskmgr/ServerProduct.h" />
+    <ClInclude Include="../../../Src/taskmgr/task.h" />
+    <ClInclude Include="../../../Src/taskmgr/TaskMgr.h" />
+    <ClInclude Include="../../../Src/taskmgr/TaskMgrInterface.h" />
+    <ClInclude Include="..\..\..\Src\taskmgr\CacheDataInMem.h" />
+    <ClInclude Include="..\..\..\Src\taskmgr\CopyTaskFile.h" />
+    <ClInclude Include="..\..\..\Src\taskmgr\M3u8Task.h" />
+    <ClInclude Include="..\..\..\Src\taskmgr\NetSign.h" />
+    <ClInclude Include="..\..\..\Src\taskmgr\NFUploadTask.h" />
+    <ClInclude Include="..\..\..\Src\taskmgr\UpLoadTask.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+SetConfig 配置接口:
+
+maxplaydowntime: 从播放点开始的N秒数据用大块下载,默认值:25
+maxcachetime：	 从播放点开始的最大预下载时长,单位s,默认值:40
+maxrecvtime:	 socket recv 间隔超时时间,s	
+maxconnecttime:  socket connect的超时时间,s
+
+uploadiniturl:   文件上传init接口
+uploadurl:	 文件上传接口
+
+返回示例:
+{
+    "error_code": 200,
+    "data": {
+        "http": {
+            "maxplaydowntime": 25,
+            "m3u8": {
+                "maxcachetime": 40
+            }
+        }
+    }
+}

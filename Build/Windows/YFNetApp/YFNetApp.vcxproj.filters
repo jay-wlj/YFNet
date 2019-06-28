@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="share">
+      <UniqueIdentifier>{f202dc70-f07b-4ac7-a30d-106ad0f6b560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="share\json">
+      <UniqueIdentifier>{2675f8ac-e9cb-447f-894c-46cc9631cf22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\YFNetApp.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\YFNetApp.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\Src\include\json\json_internalarray.inl">
+      <Filter>share\json</Filter>
+    </None>
+    <None Include="..\..\..\Src\include\json\json_internalmap.inl">
+      <Filter>share\json</Filter>
+    </None>
+    <None Include="..\..\..\Src\include\json\json_valueiterator.inl">
+      <Filter>share\json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="YFNetApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YFNetAppDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\qvodbase\AESData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="share\sha1.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="UploadPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetSign.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\include\json\autolink.h">
+      <Filter>share\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\include\json\config.h">
+      <Filter>share\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\include\json\features.h">
+      <Filter>share\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\include\json\forwards.h">
+      <Filter>share\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\include\json\json.h">
+      <Filter>share\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\include\json\json_batchallocator.h">
+      <Filter>share\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\include\json\reader.h">
+      <Filter>share\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\include\json\value.h">
+      <Filter>share\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\include\json\writer.h">
+      <Filter>share\json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="YFNetApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YFNetAppDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\qvodbase\AESData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="share\sha1.cpp">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="UploadPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetSign.cpp">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\qvodbase\json_reader.cpp">
+      <Filter>share\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\qvodbase\json_value.cpp">
+      <Filter>share\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\qvodbase\json_writer.cpp">
+      <Filter>share\json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="YFNetApp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+LIBRARY	"YfNetPlush"
+
+EXPORTS
+	_InitYfNet				@1
+	_ClearYfNet			@2
